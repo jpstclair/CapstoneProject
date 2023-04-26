@@ -6,7 +6,11 @@ Author: James StClair - edited 4/19/2023
 
 I want to analyze the difference in some stock market fields since COVID, and show whether, as a whole, they are trending upwards since then, or downwards, and make predictions based on the data obtained. 
 
+Each of the csvs in the repository shows a table, with all of the dates shown as well as each open, close, and adjusted close of each company. Each of these csvs is labelled with the stock symbol of the company in question(for example, ALL is Allstate).
 
+The csvs labelled Healthcare, Insurance, and Delivery are those same dates across each csv, and the close of each business day, to be able to compare the companies to each other better at the end of each day. 
+
+Each jupyter notebook file contains a scatter plot of the company named(or all of the ones in that field, for Healthcare, Insurance, and Delivery).
 
 
 Original Link to the data: https://www.kaggle.com/datasets/paultimothymooney/stock-market-data 
